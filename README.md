@@ -2,6 +2,8 @@
 
 Slow Sampler是基于[PureData](https://puredata.info/)与[Camomile](https://github.com/pierreguillot/Camomile)的开源VST乐器插件。它是.wav文件的采样器，主要关注采样的时间伸缩（Time Stretching）算法，允许用户以多种方式灵活调整声音采样的长度。
 
+![](https://github.com/Chaosinism/chaosinism.github.io/blob/master/posts/puredata-sampler/gui.jpg)
+
 ## 适用环境
 
 Slow Sampler提供VST2（SlowSampler.dll）与VST3（SlowSampler.vst3）格式的插件，可在Windows 64位系统中支持上述格式的DAW下使用。
