@@ -1,0 +1,4 @@
+Slow Sampler is a VST instrument sampling .wav files. It focuses on manipulating the sample with multiple time stretching methods. The adaptive mode postpones the sampling process by a few beats to read the note-off messages, so that the sample can be stretched according to the note length.
+
+Version: 0.1
+Author: Chaosinism

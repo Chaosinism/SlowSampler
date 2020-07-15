@@ -1,0 +1,17 @@
+type instrument;
+iolayout 0 2;
+code zWOt;
+midiin true;
+playhead true;
+image background.png;
+description Infos.txt;
+compatibility 1.0.6;
+param -name Volume -label dB -min -50 -max 10 -default 0;
+param -name Pitch -label semi -min -24 -max 24 -default 0;
+param -name StartPoint -label % -min 0 -max 100 -default 0;
+param -name EndPoint -label % -min 0 -max 100 -default 100;
+param -name TimeScale -label % -min 25 -max 400 -default 100;
+param -name SamplingDelay -label beats -min 1 -max 8 -default 4;
+param -name Attack -label ms -min 0 -max 5000 -default 0;
+param -name Release -label ms -min 0 -max 5000 -default 0;
+param -name Portamento -label ms -min 0 -max 1000 -default 0;
