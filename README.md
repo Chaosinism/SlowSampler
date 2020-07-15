@@ -19,7 +19,7 @@ Slow Sampler提供VST2（SlowSampler.dll）与VST3（SlowSampler.vst3）格式�
 
 ## 安装说明
 
-- 下载地址
+- [下载地址](https://github.com/Chaosinism/SlowSampler/releases/)
 
 解压上述文件并移动至DAW指定的插件文件夹中。
 
