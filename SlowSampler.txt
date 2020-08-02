@@ -15,3 +15,5 @@ param -name SamplingDelay -label beats -min 1 -max 8 -default 4;
 param -name Attack -label ms -min 0 -max 5000 -default 0;
 param -name Release -label ms -min 0 -max 5000 -default 0;
 param -name Portamento -label ms -min 0 -max 1000 -default 0;
+param -name TimeStretchMode -list None/Fixed/Adaptive;
+param -name PolyMode -list Poly/Mono/Legato;
