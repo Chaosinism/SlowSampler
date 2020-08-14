@@ -17,3 +17,4 @@ param -name Release -label ms -min 0 -max 5000 -default 0;
 param -name Portamento -label ms -min 0 -max 1000 -default 0;
 param -name TimeStretchMode -list None/Fixed/Adaptive;
 param -name PolyMode -list Poly/Mono/Legato;
+param -name Alg -list Granular4096/Granular8192/Additive;
