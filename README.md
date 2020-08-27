@@ -4,13 +4,13 @@
 
 Slow Sampler是基于[PureData](https://puredata.info/)与[Camomile](https://github.com/pierreguillot/Camomile)的开源VST乐器插件。它是.wav文件的采样器，主要关注采样的时间伸缩（Time Stretching）算法，允许用户以多种方式灵活调整声音采样的长度。
 
-![](https://github.com/Chaosinism/chaosinism.github.io/blob/master/posts/puredata-sampler/gui.jpg)
+![](README.png)
 
 ## 适用环境
 
 Slow Sampler提供VST2（SlowSampler.dll）与VST3（SlowSampler.vst3）格式的插件，可在Windows 64位系统中支持上述格式的DAW下使用。
 
-经过测试可以使用的DAW：
+已在以下DAW中进行过测试：
 
 - VST2
   - LMMS 1.2.1
@@ -31,7 +31,7 @@ Slow Sampler提供VST2（SlowSampler.dll）与VST3（SlowSampler.vst3）格式�
 
 ## 操作方法
 
-圆形图标为按钮，可以选择不同采样模式或读取声音文件。
+圆形和方形图标为按钮，可以选择不同采样模式或读取声音文件。
 
 进行数值设定既可拖动滑条，也可拖动数字。拖动数字时数值将以整数幅度变化，若拖动的同时按住Shift键则变为微调。
 
@@ -64,6 +64,8 @@ Slow Sampler提供VST2（SlowSampler.dll）与VST3（SlowSampler.vst3）格式�
      - 采样的时长被自动调整为Note外加Release的长度。此模式必须设置Sampling Delay，并且需要保证每个Note的长度不可超过Sampling Delay的值（在Legato模式下，每组连续Note的长度不可超过Sampling Delay的值）。
    - 采样延迟（Sampling Delay）
      - 仅在Adaptive模式中生效，采样将延迟数个拍子后才进行播放。
+   - 算法 （Algorithm）
+     - 提供颗粒合成（Granular Synthesis）与加法再合成（Addictive Resynthesis）两种算法，前者可选择两种窗口大小。
 4. 复音（Polyphony）模式
    - 多音（Poly）
      - 为每个Note单独播放采样，最多可同时播放16个采样。
