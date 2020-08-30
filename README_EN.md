@@ -4,7 +4,7 @@
 
 Slow Sampler is a VSTi sampler based on [PureData](https://puredata.info/) and [Camomile](https://github.com/pierreguillot/Camomile). It loads and plays WAV files with input MIDI messages. The sampler focuses on the time stretching algorithms, making it flexible to adjust the length of samples in several different modes.
 
-![](https://github.com/Chaosinism/chaosinism.github.io/blob/master/posts/puredata-sampler/gui.jpg)
+![](./README.png)
 
 ## Environment
 
