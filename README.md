@@ -20,8 +20,10 @@ Slow Sampler提供VST2（SlowSampler.dll）与VST3（SlowSampler.vst3）格式�
   - Cakewalk 2020.05
   - Reaper 5.973
   - FL Studio 20
+  
+**目前VST2版本兼容性不及VST3，导致DLL在一些旧DAW（如FL Studio 12之前的版本）中无法正常被读取，这是由于Camomile的作者在相关SDK的证书上遇到一些问题，暂时放弃了VST2插件的更新，本采样器完全依赖于Camomile，所以要改善VST2版本只能等待这个问题被解决。**
 
-若想在Mac OS与Linux系统下使用本采样器，可参照[Camomile](https://github.com/pierreguillot/Camomile)项目的说明。
+在Mac OS与Linux系统下使用本采样器是可能的，请参照[Camomile](https://github.com/pierreguillot/Camomile)项目的说明。
 
 ## 安装说明
 
