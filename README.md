@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **(2025/01) 本插件已经升级至新版本[SlowSampler2](https://github.com/chsh2/SlowSampler2)，该版本重写了大部分代码，修复插件现有的一些问题并增加了新的特性。此仓库即将停止更新，后续工作均会迁移到新的仓库中完成。**
+
+
+---
+
 # SlowSampler
 
 [[中文简介]](README.md) [[English]](README_EN.md)
