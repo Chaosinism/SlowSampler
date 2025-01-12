@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **(2025/01) This plugin has been rewritten as a new project [SlowSampler2](https://github.com/chsh2/SlowSampler2), fixing known issues and adding new features. This repository is going to be archived. All new updates will be made in the new repository.**
+
+---
+
 # SlowSampler
 
 [[Chinese]](README.md) [[English]](README_EN.md)
